@@ -33,3 +33,6 @@ cp $GITREPODIR/cms.cern.ch.local /etc/cvmfs/config.d
 cp $GITREPODIR/cern.ch.local /etc/cvmfs/domain.d
 # Check config
 cvmfs_config probe
+
+
+echo "Read resize.md and consider to increase FS size".
