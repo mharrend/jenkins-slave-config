@@ -34,5 +34,9 @@ cp $GITREPODIR/cern.ch.local /etc/cvmfs/domain.d
 # Check config
 cvmfs_config probe
 
+# Install development tools
+echo "Installing Development Tools'
+yum -y groupinstall 'Development Tools'
 
 echo "Read resizeFS.md and consider to increase FS size".
+
